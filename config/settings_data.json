@@ -1,0 +1,157 @@
+{
+  "current": {
+    "sections": {
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-list-0": {
+            "type": "collection",
+            "settings": {
+            }
+          },
+          "collection-list-1": {
+            "type": "collection",
+            "settings": {
+            }
+          },
+          "collection-list-2": {
+            "type": "collection",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "collection-list-0",
+          "collection-list-1",
+          "collection-list-2"
+        ],
+        "settings": {
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "disabled": true,
+        "settings": {
+          "title": "Featured collection",
+          "collection": "frontpage"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "product": "",
+          "show_share_buttons": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/light-bulb.png",
+          "menu": "main-menu",
+          "enable_check_box": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+        }
+      },
+      "slideshow_96JGUT": {
+        "type": "slideshow",
+        "blocks": {
+          "slider_9CGkdQ": {
+            "type": "slider",
+            "settings": {
+              "slider_img": "shopify:\/\/shop_images\/Untitled-1.jpg",
+              "title": "Summer Collection",
+              "rte": "<p>Some representative placeholder content for the first slide.<\/p>",
+              "btn_1": "Shop now",
+              "btn_url": ""
+            }
+          },
+          "slider_Xnimwt": {
+            "type": "slider",
+            "settings": {
+              "slider_img": "shopify:\/\/shop_images\/slider2.jpg",
+              "title": "Winter Collection",
+              "rte": "<p>Some <strong>representative<\/strong> placeholder content for the first slide.<\/p>",
+              "btn_1": "Explore Winter Collection",
+              "btn_url": "shopify:\/\/collections\/men"
+            }
+          },
+          "slider_WdMbGx": {
+            "type": "slider",
+            "settings": {
+              "slider_img": "shopify:\/\/shop_images\/slider1.jpg",
+              "title": "Summer Collection",
+              "rte": "<p>Some representative placeholder content for the first slide.<\/p>",
+              "btn_1": "Shop now",
+              "btn_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "slider_9CGkdQ",
+          "slider_Xnimwt",
+          "slider_WdMbGx"
+        ],
+        "settings": {
+          "enable_auto_slide": true
+        }
+      }
+    },
+    "content_for_index": [
+      "featured-collection",
+      "slideshow_96JGUT"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "collection-list-2": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1",
+            "collection-list-2"
+          ],
+          "settings": {
+          }
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "collection-list",
+        "featured-collection",
+        "featured-product"
+      ]
+    }
+  }
+}
