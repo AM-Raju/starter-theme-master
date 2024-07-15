@@ -11,7 +11,7 @@
   <div class="container-fluid">
     {% if logo != null %}
       <!-- <img src="{{ logo | image_url  }}" alt="{{ shop.name }}" width=100 height=100> -->
-      {{ logo | image_url: width: 300 | image_tag }}
+      {{ logo | image_url: width: 100 | image_tag }}
 
     {% else %}
       <a class="navbar-brand" href="#">{{ shop.name }}</a>
